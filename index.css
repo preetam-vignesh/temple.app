@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.banner{
+    width: 100%;
+    height: 100vh;
+    background-color: #7502a2;
+    background-size: cover;
+    background-position: center;
+}
+
+.content {
+    padding: 1%;
+    padding-top: 5%;
+}
+
+.content h1{
+    padding-top: 20px;
+    font-size: 40px;
+    color: rgb(246, 170, 103);
+    padding-bottom: 4px;
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+    width: fit-content;
+    margin-left: 18%;
+}
+
+.content p{
+    text-align: left;
+    margin-left: 5%;
+    margin-right: 5%;
+    color: white;
+    font-size: 22px;
+    line-height: 30px;
+}
+
+.content button{
+    margin-top: 30px;
+    margin-left: 45%;
+    background-color: rgb(246, 170, 103);
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    border-radius: 8px;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.content a{
+    text-decoration: none;
+    color: white;
+}
+
+.content button:hover {
+    background-color: yellowgreen;
+}
+
+.contactus {
+    margin-top: 104.7px;
+    margin-left: 300px;
+    margin-right: 300px;
+    background-color: rgb(246, 170, 103);
+    text-align: center;
+    padding-bottom: 12px;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+}
+
+.contactus h1{
+    padding-bottom: 6px;
+}
+
+.contactus img{
+    width: 50px;
+}
+
+@media only screen and (max-width: 700px) {
+    .banner{
+        width: 100%;
+        height: 100vh;
+        background-color: #7502a2;
+        background-size: cover;
+        background-position: center;
+    }
+    
+    .content{
+        width: 98%;
+        padding-top: 18%;
+        text-align: center;
+    }
+    .content h1{
+	    font-size: 23px;
+        margin-left: 18px;
+        text-decoration: underline;
+        border-bottom-style: none;
+    }
+
+    .content p{
+        font-size: 16px;
+        line-height: 22px;
+        padding-left: 10px;
+        padding-right: 5px;
+    }
+
+    .content button{
+        margin-left: 1%;
+    }
+
+    .contactus {
+        margin-top: 55%;
+        margin-left: 7%;
+        margin-right: 7%;
+        background-color: rgb(246, 170, 103);
+        text-align: center;
+        padding-bottom: 12px;
+        border-top-right-radius: 15px;
+        border-top-left-radius: 15px;
+    }
+}
